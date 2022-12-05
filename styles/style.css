@@ -71,13 +71,13 @@ font-size: var(--font-size-xl);
 }
 
 .saidebar-main{
-    height: 300vh;
+    height: 310vh;
     display: flex;
     /* background: var(--primary-bg); */
 }
 
 .saidebar{
-    height: 300vh;
+    height: 310vh;
     width: 30%;
     color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
@@ -86,11 +86,15 @@ font-size: var(--font-size-xl);
 
 .ul__saidebar{
     display: block;
-    padding: var(--padding-size-xl);
+    padding: var(--padding-size-m);
+}
+
+.li{
+    font-size: var(--font-size-xl);
 }
 
 .li__ul{
-   padding: var(--padding-size-l);
+   padding: var(--padding-size-m);
    font-size: var(--font-size-l);
 }
 
@@ -113,12 +117,13 @@ font-size: var(--font-size-xl);
 
 .play-off{
     border-bottom: 2px solid aliceblue;
+    font-size: var(--font-size-xl);
 }
 
 .main{
    width: 100%;
    background:var(--primary-bg);
-   border: 1px solid aliceblue;
+   /* border: 1px solid aliceblue; */
 }
 
 .play-wrapper{
@@ -134,8 +139,8 @@ font-size: var(--font-size-xl);
 .box-comand{
     border: 1px solid aliceblue;
     background: var(--spare-bg);
-    margin-top: var(--margin-size-m);
-    width: 15rem;
+    margin: var(--margin-size-xl);
+    width: 20rem;
 }
 
 .box{
@@ -143,9 +148,14 @@ font-size: var(--font-size-xl);
     padding: var(--padding-size-s);
 }
 
- block2{
-    margin-top: 350px;
+.footer{
+    display: flex;
+    justify-content: center;
+    background: var(--secondary-bg);
+    padding: var(--padding-size-l);
 }
+
+
 
 
     
