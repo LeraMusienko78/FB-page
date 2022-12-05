@@ -22,10 +22,49 @@ li {
 .header{
     display: flex;
     justify-content: space-between;
+    background: var(--secondary-bg);
+    padding: var(--padding-size-l);
 }
 
 .logo{
     height: 5rem;
     width: 5rem;
+    border-radius: 50%;
 }
+
+.title-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .input-wrapper{
+    display: flex;
+    align-items: center;
+} 
+
+.input{
+    display: flex;
+    align-items: center;
+    background: inherit;
+}
+
+.input:hover{
+    background: rgb(109, 106, 155);
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding: var(--padding-size-m);
+}
+
+.nav__link{
+    display: flex;
+    justify-content: space-between;
+}
+
+
     
