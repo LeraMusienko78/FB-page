@@ -111,6 +111,10 @@ font-size: var(--font-size-xl);
     background:rgb(151, 150, 150);
 }
 
+.play-off{
+    border-bottom: 2px solid aliceblue;
+}
+
 .main{
    width: 100%;
    background:var(--primary-bg);
@@ -137,6 +141,10 @@ font-size: var(--font-size-xl);
 .box{
     border: 1px solid aliceblue;
     padding: var(--padding-size-s);
+}
+
+ block2{
+    margin-top: 350px;
 }
 
 
