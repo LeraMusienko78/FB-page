@@ -71,15 +71,17 @@ font-size: var(--font-size-xl);
 }
 
 .saidebar-main{
-    height: 450vh;
-    background: var(--primary-bg);
+    height: 300vh;
+    display: flex;
+    /* background: var(--primary-bg); */
 }
 
 .saidebar{
-    height: 450vh;
+    height: 300vh;
     width: 30%;
     color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
+    background: var(--primary-bg);
 }
 
 .ul__saidebar{
@@ -107,6 +109,34 @@ font-size: var(--font-size-xl);
 
 .comand-title:hover{
     background:rgb(151, 150, 150);
+}
+
+.main{
+   width: 100%;
+   background:var(--primary-bg);
+   border: 1px solid aliceblue;
+}
+
+.play-wrapper{
+    display: flex;
+    justify-content: space-between;
+    color: var(--secondary-color);
+    padding: var(--padding-size-l);
+    font-size: var(--font-size-l);
+    border-bottom: 1px solid aliceblue;
+}
+
+
+.box-comand{
+    border: 1px solid aliceblue;
+    background: var(--spare-bg);
+    margin-top: var(--margin-size-m);
+    width: 15rem;
+}
+
+.box{
+    border: 1px solid aliceblue;
+    padding: var(--padding-size-s);
 }
 
 
