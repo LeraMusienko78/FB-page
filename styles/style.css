@@ -12,4 +12,18 @@ a {
 li {
     list-style-type : none ;
 }
+
+#app{
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 5rem;
+    width: 5rem;
+}
     
