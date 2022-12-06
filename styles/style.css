@@ -71,13 +71,13 @@ font-size: var(--font-size-xl);
 }
 
 .saidebar-main{
-    height: 310vh;
+    height: 250vh;
     display: flex;
     /* background: var(--primary-bg); */
 }
 
 .saidebar{
-    height: 310vh;
+    height: 250vh;
     width: 30%;
     color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
@@ -86,15 +86,15 @@ font-size: var(--font-size-xl);
 
 .ul__saidebar{
     display: block;
-    padding: var(--padding-size-m);
+    padding: var(--padding-size-s);
 }
 
 .li{
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-l);
 }
 
 .li__ul{
-   padding: var(--padding-size-m);
+   padding: var(--padding-size-s);
    font-size: var(--font-size-l);
 }
 
@@ -105,8 +105,8 @@ font-size: var(--font-size-xl);
 
 .comand-title{
     display: block;
-    padding: var(--padding-size-m);
-    margin-top: var(--margin-size-m);
+    padding: var(--padding-size-s);
+    margin-top: var(--margin-size-s);
     background:var(--additional-bg);
     font-size: var(--font-size-l);
 }
@@ -154,6 +154,7 @@ font-size: var(--font-size-xl);
     background: var(--secondary-bg);
     padding: var(--padding-size-l);
 }
+
 
 
 
